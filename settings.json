@@ -1,0 +1,7 @@
+{
+    "galaxy.meteor.com": {
+        "env": {
+            "MONGO_URL": "mongodb+srv://matiozg:NFrI9WjccwnpS1WY@tkcluster.e1grj.mongodb.net/tkcimpress?retryWrites=true&w=majority"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "impress",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@vue/composition-api": "^1.0.0-rc.6",
+    "jquery": "^3.5.1",
+    "meteor-node-stubs": "^1.0.1",
+    "mongodb": "^3.6.6",
+    "simpl-schema": "^1.10.2",
+    "vue": "^2.6.12",
+    "vue-date-pick": "^1.4.1",
+    "vue-graph": "^0.8.7",
+    "vue-meteor-tracker": "^2.0.0-beta.5",
+    "vue-router": "^3.5.1"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}
